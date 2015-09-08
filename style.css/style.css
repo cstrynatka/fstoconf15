@@ -1,0 +1,37 @@
+body {
+	background-color: #dddddd;
+}
+
+h1, h2 {
+	font-family: Helvetica;
+	color: #000080;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+p {
+	text-align: center;
+}
+
+.highlight {
+	background-color: #5F9EA0;
+}
+
+.maxsize {
+	width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	body {
+		font-size: 18px;
+		background-color: #B0C4DE;
+		text-align: justify;
+	}
+	.container {
+		width: 600px;
+		margin: 0 auto;
+	}
+}
